@@ -1,3 +1,33 @@
-p{
-    color: rgb(21, 136, 111);
+.head{
+    float: left;
+    margin-left: 10px;
 }
+.head + div{
+    float: left;
+    margin-left: 15px;
+}
+
+.right-side{
+    float:left;
+    margin-left: 82%;
+    margin-top: 5px;
+   
+}
+
+.right-side ~ div{
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    
+    
+}
+
+#svg{
+    margin-top:12px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
