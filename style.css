@@ -1,33 +1,69 @@
 .head{
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
 }
 .head + div{
     float: left;
     margin-left: 15px;
+    margin-top: 20px;
 }
 
 .right-side{
     float:left;
     margin-left: 82%;
-    margin-top: 5px;
+    margin-top: 20px;
    
 }
 
 .right-side ~ div{
     float: left;
     margin-left: 1%;
-    margin-top: 10px;
+    margin-top: 20px;
     
     
 }
 
 #svg{
-    margin-top:12px;
+    margin-top:0px;
 }
 
-body{
+* {
     margin: 0px;
     padding: 0px;
 }
 
+.google{
+    display:block;
+    margin: 0 auto;
+    padding-top: 250px;
+    
+}
+
+.bottomnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbe0e6;
+    padding: 20px;
+    margin-top: 430px;  
+    
+}
+.lefts{
+    float: left;
+    flex: 1;
+}
+
+.rights{
+    float: right;
+}
+
+.lefts > p{
+    float: left;
+    padding: 5px;
+}
+
+.rights > p{
+    float: left;
+    padding: 5px;
+}
